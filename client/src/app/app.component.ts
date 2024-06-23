@@ -12,6 +12,7 @@ import { HomeComponent } from "./home/home.component";
     styleUrl: './app.component.css',
     imports: [RouterOutlet, CommonModule, NavComponent, HomeComponent]
 })
+
 export class AppComponent implements OnInit {
   title = 'DatingApp';
   
